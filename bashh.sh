@@ -17,8 +17,8 @@ source ~/.bashrc
 cd checkpoints
 
 # Update apt repository and install git-lfs
-sudo apt update
-sudo apt-get install git-lfs -y
+apt update
+apt-get install git-lfs -y
 git lfs install
 
 # Clone repositories using git-lfs
